@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+
+msgid "SIM Config"
+msgstr "SIM卡配置"
+
+msgid "SIM Settings"
+msgstr "SIM卡设置"
+
+msgid "SIM Auto Switch"
+msgstr "SIM卡自动切换"
+
+msgid "Network Delect Interval"
+msgstr "网络检测间隔"
+
+msgid "Network Down Judge Times"
+msgstr "网络下线判断次数"
+
+msgid "Ping Destination"
+msgstr "Ping目标"
+
+msgid "WWAN Interface"
+msgstr "WWAN接口"
+
+msgid "Please enter the WWAN interface name"
+msgstr "请输入WWAN接口名称"
+
+msgid "SIM Slot"
+msgstr "SIM卡卡槽"
+
+msgid "Now"
+msgstr "当前"
+
+msgid "SIM Slot"
+msgstr "SIM卡卡槽"
+
+msgid "Next Boot"
+msgstr "下次启动"
+
+msgid "SIM Slot"
+msgstr "SIM卡卡槽"
+
+msgid "Setting"
+msgstr "设置"
+
+msgid "Set SIM"
+msgstr "设置SIM卡"
+
+msgid "SIM1(Close to power)"
+msgstr "SIM1(靠近电源)"
+
+msgid "SIM2(Away from power)"
+msgstr "SIM2(远离电源)"

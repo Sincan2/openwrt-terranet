@@ -1,0 +1,24 @@
+#!/bin/sh
+. /lib/functions.sh
+if [ "$ACTION" != "ifup" ]; then
+    exit
+fi
+#interface name wan 2_1 1_1_4 1_1_1
+if [ "$INTERFACE" = "wan" ] || [ "$INTERFACE" = "2_1" ] || [ "$INTERFACE" = "1_1_4" ] || [ "$INTERFACE" = "1_1_1" ]; then
+    NOT_EXIT=1
+fi
+if [ -z "$NOT_EXIT" ]; then
+    exit
+fi
+
+restart_l2tp() {
+    config_get proto $1 proto
+    if [ "$proto" = "l2tp" ]; then
+        ifup $1
+        logger -t wan_hotplug "restart l2tp $1"
+    fi
+}
+
+config_load network
+config_foreach restart_l2tp interface
+exit 0

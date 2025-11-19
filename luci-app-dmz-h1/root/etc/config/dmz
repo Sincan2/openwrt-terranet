@@ -1,0 +1,4 @@
+config dmz 'settings'
+	option enabled '0'
+	option dmz_ip ''
+	option dmz_ports '1-65535'

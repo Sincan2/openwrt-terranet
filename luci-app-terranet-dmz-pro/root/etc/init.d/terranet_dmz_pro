@@ -1,0 +1,5 @@
+#!/bin/sh /etc/rc.common
+START=99
+
+start()  { /usr/lib/terranet_dmz_pro.sh; }
+stop()   { /usr/lib/terranet_dmz_pro.sh; }

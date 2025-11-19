@@ -1,0 +1,23 @@
+
+config global 'global'
+	option enable_dial '1'
+	option modem_number '0'
+	option manual_configuration '0'
+
+config modem-slot 'u1_1_4'
+	option slot '1-1.4'
+	option type 'usb'
+	option net_led 'wwan'
+
+config modem-slot 'u1_1_1'
+	option slot '1-1.1'
+	option type 'usb'
+	option net_led 'wwan'
+	option ethernet 'cpewan0'
+
+config modem-slot 'u2_1'
+	option slot '2-1'
+	option type 'usb'
+	option net_led 'wwan'
+	option ethernet 'cpewan0'
+
